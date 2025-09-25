@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+}
+
+.nav_bar{
+    background-color: white;
+    
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px;
+    box-shadow: 0px 5px 10px 2px rgb(180, 180, 180);
+
+    position: sticky;
+    top: 0px;
+
+    z-index: 10;
+}
+.insta{
+    font-size: 18px;
+    font-weight: 700;
+}
+.mins{
+    font-size: 12px;
+    font-weight: 600;
+
+    color: purple;
+}
+
+.main{
+    width: 90vw;
+    margin-top: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.location{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.blue{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    background-color: blue;
+}
+
+.add{
+    font-size: 20px;
+    font-weight: 700;
+    
+    color: blue;
+}
+.to_see{
+    color: gray;
+    font-weight: 600;
+}
+
+.profile{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    background-color: gray;
+}
+
+.search-box{
+    border: 1px solid gray;
+    border-radius: 15px;
+
+    width: 100%;
+    height: 50px;
+    
+    margin: auto;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+
+    color: gray;
+}
+.advert{
+    width: 90%;
+    height: 50vh;
+
+    border-radius: 10px;
+
+    margin: auto;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 40px;
+
+    color: white;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 30px;
+
+    margin-top: 50px;
+}
+
+
+.card{
+    width: 150px;
+
+    /* background-color: gray; */
+
+    padding: 10px;
+
+    position: relative;
+}
+
+img{
+        width: 100%;
+}
+
+.small-text{
+    font-size: 10px;
+
+    font-weight: 600;
+    color: rgb(80, 80, 80);
+}
+
+.title{
+    font-size: 18px;
+
+    font-weight: 600;
+}
+
+.quantity{
+    font-weight: 600;
+}
+
+.prize{
+    font-size: 18px;
+
+    font-weight: 700;
+}
+
+.sale{
+    text-decoration:line-through;
+}
+
+footer{
+    background-color: black;
+
+
+    width: 100vw;
+    height: 800px;
+}
+
+.swiggy{
+    
+    margin: 50px;
+}
+
+.swiggy > img{
+    width: 250px;
+    margin-top: 50px;
+}
+
+.copyrights{
+    width: 250px;
+
+    font-size: 22px;
+    font-weight: 600;
+
+    color: gray;
+
+    margin-top: 20px;
+}
+
+.last{
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 100vw;
+}
+
+.link{
+
+    margin-top: 30px;
+    color: rgb(192, 192, 192);
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.blue > img{
+    width: 30px;
+}
+
+svg{
+    position: absolute;
+}
